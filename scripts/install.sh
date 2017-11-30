@@ -26,7 +26,7 @@ wget https://pypi.python.org/packages/6c/c7/3f49fe4caee7534838cbf03d8494f1f5de0d
 #       if you are not using a virutalenv.
 
 # install virtual env and create  a virtual environment called my_new_app
-
+#adapted from https://gist.github.com/ronrest/d778ee5d49c026ccee1dbec6bd5b3988
 sudo apt-get update
 sudo apt install virtualenv
 sudo apt-get install python-pip  
@@ -39,7 +39,7 @@ source my_new_app/bin/activate
 #sudo apt-get install mayavi2
 PYTHON_VERSION="2.7"                   # 
 VIRTUAL_ENV_NAME="my_new_app"                # Name of your virtualenv
-VIRTUAL_ENV_ROOT="${HOME}/virtualenvs" # Where your virtual envs are stored
+VIRTUAL_ENV_ROOT="${HOME}/virtualenvironment" # Where your virtual envs are stored
 
 # REMOVE THE FOLLOWING 2 LINES IF YOU ARE NOT USING A VIRTUALENV
 echo "ENTERING VIRTUALENV"
