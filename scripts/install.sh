@@ -29,6 +29,8 @@ wget https://pypi.python.org/packages/6c/c7/3f49fe4caee7534838cbf03d8494f1f5de0d
 
 sudo apt-get update
 sudo apt install virtualenv
+sudo apt-get install python-pip  
+sudo pip install numpy scipy
 
 virtualenv -p python3 my_new_app
 source my_new_app/bin/activate
