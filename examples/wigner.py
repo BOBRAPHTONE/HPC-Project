@@ -74,7 +74,7 @@ surf_cat3 = mlab.surf(x + 10, y, cat3, colormap='Spectral', warp_scale=5,
             extent=cat3_extent, vmin=-0.5, vmax=0.5)
 mlab.outline(surf_cat3, color=(.7, .7, .7), extent=cat3_extent)
 
-mlab.text(6, -2.5, '3 photons', z=-4, width=0.14)
+mlab.text(6, -2.5, 'Temperature', z=-4, width=0.14)
 
 mlab.title('Room Sensors ')
 
