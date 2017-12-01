@@ -37,7 +37,7 @@ def f(x, y):
 
 z = f(x, y)
 
-from mayavi import mlab
+from mayavi2 import mlab
 mlab.figure(1, fgcolor=(0, 0, 0), bgcolor=(1, 1, 1))
 
 # Visualize the points

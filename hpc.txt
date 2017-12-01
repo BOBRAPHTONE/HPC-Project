@@ -1,0 +1,9 @@
+
+
+importance of data visualization
+ -sensor,busi.financialmedical,climate
+
+insights for decision making
+-Job
+
+Compare laptop vs hpc

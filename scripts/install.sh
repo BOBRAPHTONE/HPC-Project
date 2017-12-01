@@ -39,7 +39,8 @@ source my_new_app/bin/activate
 #sudo apt-get install mayavi2
 PYTHON_VERSION="2.7"                   # 
 VIRTUAL_ENV_NAME="my_new_app"                # Name of your virtualenv
-VIRTUAL_ENV_ROOT="${HOME}/virtualenvironment" # Where your virtual envs are stored
+#VIRTUAL_ENV_ROOT="${HOME}/virtualenvironment" # Where your virtual envs are stored
+
 
 # REMOVE THE FOLLOWING 2 LINES IF YOU ARE NOT USING A VIRTUALENV
 echo "ENTERING VIRTUALENV"
